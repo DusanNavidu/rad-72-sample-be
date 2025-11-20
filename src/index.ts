@@ -19,7 +19,7 @@ const app = express()
 app.use(express.json())
 app.use(
   cors({
-    origin: ["https://rad-72-sample-be-one.vercel.app"],
+    origin: ["https://rad-72-sample-be-one.vercel.app/api/v1"],
     methods: ["GET", "POST", "PUT", "DELETE"] // optional
   })
 )
